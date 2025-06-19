@@ -7,7 +7,7 @@ from utils.plotting import create_plot
 from pandas.api.types import is_object_dtype, is_categorical_dtype, is_numeric_dtype
 
 
-st.set_page_config(page_title="Data Dashboard", layout="wide")
+st.set_page_config(page_title="Data Dashboard", initial_sidebar_state="expanded", layout="wide")
 
 st.title("📊 Interactive Data Dashboard")
 
